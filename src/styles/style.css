@@ -54,3 +54,13 @@ text-align: center;
 padding-top: 100px;
 padding-bottom: 100px;
 }
+
+.fone-header::before {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./src/images/background.png");
+    opacity: 0.1;
+}
+.h1-orange {
+    background-color: var(--bisic);
+}
