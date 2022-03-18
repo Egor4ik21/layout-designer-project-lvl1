@@ -32,7 +32,7 @@ h1,
 h2,
 h3 {
     color: var(--dark);
-    font-family: 16px/11.6em 'Neucha';
+    font-family: "Neucha", "Times New Roman", cursive;
     line-height: 1.2em;
 }
 
@@ -48,19 +48,35 @@ h3 {
     font-size: 34px;
 }
 
-* {
+.content-1 {
 max-width: 1110px;
 text-align: center;
 padding-top: 100px;
 padding-bottom: 100px;
 }
 
+.h1-orange {
+    color: var(--bisic);
+    }
+    
 .fone-header::before {
+    background-image: url("./src/images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./src/images/background.png");
     opacity: 0.1;
-}
-.h1-orange {
-    background-color: var(--bisic);
-}
+    }
+
+.main-png {
+    height: 525px;
+    top: 55px;
+    right: -270px;
+    }
+
+.txt-header {
+    column-count: 2;
+    column-gap: 30px;
+    }
+    
+.ref-header {
+    
+    }
