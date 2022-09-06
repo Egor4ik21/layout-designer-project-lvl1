@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: url(../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf)
 }
 
 @font-face {
@@ -38,12 +38,9 @@ h3 {
     font-size:  34px;
 }
 
-header {
-    position: absolute;
-}
 
 .header-section {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,11 +77,37 @@ header {
 
 body {
     margin: 0;
-  }
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 1.6em;
+}
 
 .main-img {
     position: relative;
     height: 525px;
     top: 55px;
     right: -270px;
+}
+.txt-header {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    width: 100%;
+    column-gap: 30px;
+}
+
+.colum-left {
+    display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	height: 48%;
+}
+
+.colum-right {
+    display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	height: 48%;
 }
