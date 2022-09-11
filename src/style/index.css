@@ -79,8 +79,8 @@ h3 {
 
 body {
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: column;
+    justify-content: center;
     height: 100%;
     margin: 0;
     font-family: "Open Sans";
@@ -131,12 +131,13 @@ body {
 }
 /* SECTION 2 */
 main {
-    position: relative;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.h1-video {
-
+/* .h1-video {
+    position: relative;
 }
 
 .p-video {
@@ -145,11 +146,13 @@ main {
 
 .video {
 
-}
-
-/* .video-section {
-    position: relative;
-    display: flex;
-	flex-direction: column;
-
 } */
+
+.video-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
