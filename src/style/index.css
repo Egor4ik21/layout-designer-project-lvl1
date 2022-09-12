@@ -43,11 +43,8 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1110px;
-    padding-top: 100px;
-    padding-bottom: 100px;
     justify-content: center;
-    margin-left: 120px;
+    width: 100%;
 }
     
 .header::before {
@@ -127,13 +124,16 @@ body {
     margin-left: 700px;
     margin-top: 30px;
 }
-/* SECTION 2 */
+/* VIDEO-SECTION */
 .video-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100%;
+}
+
+.width-1110px {
+    width: 1110px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -159,4 +159,23 @@ body {
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
     position: relative;
     
+}
+
+/* FIVE-DISTROTION-SECTION */
+
+.five-distortion {
+    background-color: var(--main-dark);
+
+}
+
+.five-distortion-orange {
+    color: var(--main)
+}
+
+.five-distortion-white {
+    color: var(--white);
+}
+
+.card-h2 {
+    font-family: "Neucha"
 }
