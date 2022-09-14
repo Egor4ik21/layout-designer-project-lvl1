@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-    font-size: 60px;
+    font-size: 52px;
 }
 
 h3 {
@@ -52,7 +52,7 @@ h3 {
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--translucent-white);
+    color: var(--light);
     width: 100%;
     height: 100%;
     content: "";
@@ -138,6 +138,12 @@ body {
     padding-bottom: 100px;
 }
 
+.width-1110px-video {
+    width: 1110px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .h2-video {
     font-family: "Neucha";
 }
@@ -158,13 +164,17 @@ body {
     margin-top: 30px;
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
     position: relative;
-    
+    border: 0;
 }
 
 /* FIVE-DISTROTION-SECTION */
 
 .five-distortion {
     background-color: var(--main-dark);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
@@ -177,5 +187,46 @@ body {
 }
 
 .card-h2 {
-    font-family: "Neucha"
+    font-family: "Neucha";
+    font-size: 52px;
+    width: 350px;
+    height: 350px;
+}
+
+nav {
+    width: 350px;
+    height: 350px;
+    background-color: var(--light);
+    margin-bottom: 20px;
+}
+
+.h1_black {
+    color: var(--main-dark);
+    font-size: 64px;
+    line-height: 1;
+    font-family: "Neucha";
+    margin-bottom: 40px;
+}
+
+.h3-orange {
+    color: var(--main);
+    font-family: "Neucha";
+}
+
+.p-five-distortion {
+    color: var(--dark);
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.width-1110px-five-distortion {
+    max-width: 1110px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+.div-card {
+    padding: 24px 24px 24px 24px;
 }
