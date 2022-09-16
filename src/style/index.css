@@ -14,12 +14,14 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf)
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    line-height: 1.6em;
 }
 
 @font-face {
     font-family: "Neucha";
     src: url(../fonts/Neucha-Regular.ttf);
+    line-height: 1.6em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,13 +40,23 @@ h3 {
     font-size:  34px;
 }
 
+h4 {
+    font-size: 60px;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
 /* SECTION 1 */
-.header-section {
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-color: var(--light);
 }
     
 .header::before {
@@ -52,17 +64,22 @@ h3 {
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--light);
     width: 100%;
     height: 100%;
     content: "";
     opacity: 0.1;
 }
+
+.header-section-1110px {
+    width: 1110px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
     
 .h1-header {
-    position: relative;
     z-index: 1;
     font-family: "Neucha";
+    position: relative;
 }
     
 .orange {
@@ -91,12 +108,12 @@ body {
 .txt-header {
     position: relative;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     column-gap: 30px;
-    padding-left: 520px;
-    padding-top: 70px;
+    padding-top: 80px;
 }
     
 .colum-left {
@@ -121,7 +138,7 @@ body {
     color: white;
     font-family: "Open Sans";
     font-weight: 700;
-    margin-left: 700px;
+    margin-left: 570px;
     margin-top: 30px;
 }
 /* VIDEO-SECTION */
@@ -132,11 +149,6 @@ body {
     text-align: center;
 }
 
-.width-1110px {
-    width: 1110px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 
 .width-1110px-video {
     width: 1110px;
@@ -175,7 +187,7 @@ body {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-
+    padding-top: 100px;
 }
 
 .five-distortion-orange {
@@ -229,4 +241,87 @@ nav {
 }
 .div-card {
     padding: 24px 24px 24px 24px;
+}
+
+.IKEA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--light);
+}
+
+.IKEA::before {
+    position: absolute;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: 0.1;
+}
+
+.IKEA-1110px {
+    width: 1110px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.div-1.img {
+    vertical-align: middle;
+}
+
+.inline {
+    position: relative;
+    column-count: 2;
+    column-gap: 68px;
+}
+
+.p-IKEA {
+    font-size: 24px;
+    font-family: "Neucha";
+    color: var(--translucent-dark);
+    margin-bottom: 0px;
+}
+
+.h4-dark {
+    font-family: "Neucha";
+    color: var(--dark);
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-weight: 400px;
+}
+
+.under-h4 {
+    font-size: 34px;
+    font-family: "Neucha";
+    color: var(--dark);
+
+}
+
+.h5-footer {
+    position: relative;
+    margin: 100px 0 20px;
+}
+
+.h5-white {
+    background-color: var(--brown);
+    font-family: "Open Sans";
+    color: var(--white);
+    padding-left: 10px;
+}
+
+.column {
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.footer-left {
+    margin: 0;
+}
+
+.footer-right {
+    margin: 0;
 }
