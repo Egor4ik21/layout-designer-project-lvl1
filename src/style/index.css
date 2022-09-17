@@ -153,7 +153,6 @@ body {
 .width-1110px-video {
     width: 1110px;
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .h2-video {
@@ -173,10 +172,11 @@ body {
 }
 
 .video {
-    margin-top: 30px;
+    margin-top: -30px;
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
     position: relative;
     border: 0;
+    bottom: -50px;
 }
 
 /* FIVE-DISTROTION-SECTION */
@@ -233,7 +233,7 @@ nav {
 
 .width-1110px-five-distortion {
     max-width: 1110px;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
@@ -242,6 +242,9 @@ nav {
 .div-card {
     padding: 24px 24px 24px 24px;
 }
+
+/* IKEA-SECTION */
+
 
 .IKEA {
     display: flex;
@@ -271,6 +274,7 @@ nav {
 
 .div-1.img {
     vertical-align: middle;
+    filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
 .inline {
@@ -316,6 +320,94 @@ nav {
 .column {
     column-count: 2;
     column-gap: 30px;
+}
+
+.footer-left {
+    margin: 0;
+}
+
+.footer-right {
+    margin: 0;
+}
+
+/* OPTIMIZATION-SECTION */
+
+.optimization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--brown);
+}
+
+.optimization::before {
+    position: absolute;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: 0.1;
+}
+
+.optimization-1110px {
+    width: 1110px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.div-2.img {
+    vertical-align: middle;
+    filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+    position: relative;
+}
+
+.inline-white {
+    position: relative;
+    column-count: 2;
+    column-gap: 30px;
+}
+.p-optimization-white {
+    font-size: 24px;
+    font-family: "Neucha";
+    color: var(--translucent-dark);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.h4-white {
+    font-family: "Neucha";
+    color: var(--white);
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-weight: 400px;
+}
+
+.under-h4-white {
+    font-size: 34px;
+    font-family: "Neucha";
+    color: var(--white);
+
+}
+
+.h5-footer {
+    position: relative;
+    margin: 100px 0 20px;
+}
+
+.h5-brown {
+    background-color: var(--white);
+    font-family: "Open Sans";
+    color: var(--brown);
+    padding-left: 10px;
+}
+
+.column-white {
+    column-count: 2;
+    column-gap: 30px;
+    color: var(--white);
 }
 
 .footer-left {
