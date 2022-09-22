@@ -362,10 +362,11 @@ nav {
     vertical-align: middle;
     filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
     position: relative;
+    max-width: 100%;
 }
 
 .inline-white {
-    position: relative;
+    overflow: hidden;
     column-count: 2;
     column-gap: 30px;
 }
@@ -488,9 +489,10 @@ nav {
 }
 
 .div-4.img {
+    position: relative;
     vertical-align: middle;
     filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
-    position: relative;
+    max-width: 100%;
 }
 
 .p-depreciation-white {
@@ -540,4 +542,82 @@ nav {
     font-family: "Neucha";
     color: var(--translucent-dark);
     margin-bottom: 0px;
+}
+
+/* SECTION-FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-1110px-width {
+    width: 1110px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-column {
+    background-color: var(--main-dark);
+    column-count: 2;
+    padding: 55px 55px 55px 55px;
+}
+
+.center {
+    text-align: center;
+}
+
+.footer-column-left {
+    font-family: "Neucha";
+    color: var(--white);
+}
+
+.p-email {
+    font-family: "Open Sans";
+    color: var(--white);
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.p-column {
+    font-family: "Open Sans";
+    color: var(--white);
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.email-button {
+    width: 495px;
+    display: flex;
+    flex-direction: row;
+}
+
+.email {
+    width: 425px;
+    height: 50px;
+}
+
+.footer-button {
+    width: 70px;
+    height: 56px;
+    background-color: var(--main);
+    border: none;
+    background-image: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/78cf2c1aa4757071fdaa945bbd6b72adb59fc38b/images/send.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input::-webkit-input-placeholder {
+    font-family: "Open Sans";
+    opacity: 0.2;
+}
+
+.u {
+    color: var(--blue);
+}
+
+
+.p3-footer {
+    color: var(--blue);
 }
