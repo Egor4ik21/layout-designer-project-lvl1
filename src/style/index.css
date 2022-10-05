@@ -565,7 +565,9 @@ footer {
 }
 
 .center {
+    margin-top: 60px;
     text-align: center;
+    font-size: 14px;
 }
 
 .footer-column-left {
@@ -588,24 +590,32 @@ footer {
 }
 
 .email-button {
-    width: 495px;
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .email {
+    border: none;
     width: 425px;
-    height: 50px;
+    height: 48px;
+    padding-left: 15px;
+
 }
 
 .footer-button {
+    border: none;
     width: 70px;
-    height: 56px;
+    height: 50px;
     background-color: var(--main);
     border: none;
     background-image: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/78cf2c1aa4757071fdaa945bbd6b72adb59fc38b/images/send.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.a-text {
+    color: var(--white);
 }
 
 input::-webkit-input-placeholder {
@@ -620,4 +630,12 @@ input::-webkit-input-placeholder {
 
 .p3-footer {
     color: var(--blue);
+}
+
+.a-text-p3 {
+    color: var(--blue);
+}
+
+.footer-h3 {
+    margin: 0px;
 }
